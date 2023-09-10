@@ -91,3 +91,8 @@ function checkAnswer() {
 submitButton.addEventListener("click", checkAnswer);
 
 displayQuestion();
+
+// script.js
+function showMessage() {
+    alert('Hello from JavaScript!');
+}
