@@ -62,8 +62,12 @@ h1 {
     background-color: #DAF5FF;
     padding-top: 0px;                      
 }
-.middle-container{  
-    background-color: #c7ebf6;
+ .middle-container{  
+     background-image: url("ocean.png");
+     background-repeat: no-repeat;
+     max-width: 100%;
+     height:auto;
+     background-size: 100%;
  
 }
 .image{
