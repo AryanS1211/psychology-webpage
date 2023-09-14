@@ -1,0 +1,434 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    
+}
+hr {
+    border-style: none;
+    border-color: #017da0;
+    border-top-style: dotted;
+    border-width: 8px;
+    width: 10%;
+    
+}
+h1 {
+   font-size: 60px;
+    position: absolute;  
+    width: 50%;
+    top: 100px;
+    right: 350px;
+    font-family: 'Sacramento', cursive;
+    color: #bdd3d3; 
+}
+                                               /*div {
+                                              background-color: #C7E9B0;
+                                                } */ 
+
+                                              /* height: 200px;
+                                                 width: 200px;
+                                                 border:solid 10px;
+                                                 padding: 20px;*/
+
+                                             /*.topcolor {
+                                               background-color: red;
+                                               border:solid 20px;
+                                               width: 200px;
+                                               height: 200px;
+                                               position: static;
+                                               }
+
+                                               .bottomcolor {
+                                                background-color: blue;
+                                                border:solid 10px;
+                                                width: 200px;
+                                                 height: 200px;
+                                               }  */
+.h4{
+   font-weight: normal;
+   position: absolute; 
+   top: 230px;
+   right: 625px;
+   font-family: 'Montserrat', sans-serif;
+   color: #66BFBF;
+}
+.topimages{
+    margin-top: 20px;
+    height: 200px;
+    width: 15%;
+}
+.top-container{
+    position: relative;
+    background-color: #DAF5FF;
+    padding-top: 0px;                      
+}
+.middle-container{  
+    background-color: #c7ebf6;
+ 
+}
+.image{
+    margin-top: 20px;
+    height: 200px;
+    width: 15%;
+}
+.labtop{
+    background-color: #F5F3C1; 
+    height: 150px;
+    width: 20%;
+}
+h3{
+    color:#005e7e;
+}
+.line{
+    border-top-style: solid;
+    border-color: #090c0f;
+    border-width: 20%;
+}
+h2{
+    color: #ffffff;
+}
+.table{
+  display: block;         /* to center a image*/
+  margin-left: auto;
+  margin-right: auto;    
+  width: 20%;
+}
+.contact{
+    position: relative;
+    bottom: 1px;
+}
+.skills{
+    width: 50%;
+    margin: auto;
+    line-height: 2;
+}
+.html{
+    float: left;
+    margin: 20px;
+   
+}
+.css{
+    float:right;
+    margin: 20px;
+}
+.pro{
+    margin: 70px auto 70px auto;
+}
+.htmlclass{
+    text-align: right;  
+    margin: 70px auto 70px auto;  
+}
+.cssclass{
+    text-align: left;
+    margin: 70px auto 70px auto;
+}
+/*                                              F  o  o  t  e  r                                                */
+/* Reset default margin and padding for the body element */
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer {
+    background-color: #333; /* Change this to your desired background color */
+    color: #fff; /* Change this to your desired text color */
+    text-align: center;
+    padding: 20px 0; /* Add padding to the top and bottom for spacing */
+    position: relative; /* Ensure proper positioning */
+  }
+  
+  /* Style for the left corner image */
+  .left-corner img {
+    width: 30px; /* Adjust the width as needed */
+    height: 30px; /* Adjust the height as needed */
+    position: absolute;
+    left: 10px; /* Adjust the left position as needed */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Center vertically */
+  }
+  
+  /* Style for the right corner image */
+  .right-corner img {
+    width: 30px; /* Adjust the width as needed */
+    height: 30px; /* Adjust the height as needed */
+    position: absolute;
+    right: 10px; /* Adjust the right position as needed */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Center vertically */
+  }
+  
+  .copyright {
+    font-size: 14px; /* Adjust the font size as needed */
+  }
+/*--------------------------------------------------------------------------------------------------------------*/
+/*                                       H  e  a  d  e  r                                                      */
+/* some default styles for the header */
+header {
+    background-color:  #c7f0fc;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   /* border-bottom: 5px solid rgb(49, 221, 255); /* Add a dark blue border at the bottom */ 
+    position: fixed; /* Make the header fixed at the top */
+    top: 0; /* Align the header to the top of the viewport */
+    width: 100%; /* Make the header span the entire width of the viewport */
+    z-index: 100; /* Ensure the header appears above other content */
+}
+.logo {
+    margin-left: 20px;
+}
+
+/* Style the logo */
+.logo img {
+    max-width: 600px;
+    max-height: 40px; /* Limit the maximum height of the image */
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #050505; /* Change the color to your preference */
+    font-weight: bold;
+    font-family: 'Merienda', cursive;
+}
+
+/* Style the navigation links on hover */
+nav a:hover {
+    color: #e1fcff; /* Change the hover color to your preference */
+}
+/*-------------------------------------------------------------------------------------------------------------------------------------*/
+/*                                               D  R  O  P        D  O  W  N                                                                               */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Style the dropdown button */
+.dropbtn {                           /*test text only*/
+    background-color: transparent;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #c7f0fc00;
+    min-width: 160px;
+    background: rgba(255, 255, 255, 0);
+    z-index: 1;
+    border: 1px solid #515151; /* Add a border around the dropdown */
+
+}
+
+/* Style the dropdown links */
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+    border-bottom: 1px solid #000000; /* Add a border between the options */
+    background: rgba(255, 253, 253, 0);
+}
+
+/* Change the background color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: rgba(0, 220, 254, 0.362);
+}
+
+/* Show the dropdown content when the dropdown button is hovered over */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/*........................................................................................................................*/
+/*             C   O   N    T    A    C   T                                       B  U   T   T  O  N         */
+
+
+
+/* Style the button */
+.contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00c3ff; /* Change to your preferred button color */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect */
+.contact-button:hover {
+    background-color: #74ff8d; /* Change to your preferred button hover color */
+    
+}
+.button-container {
+    text-align: center;
+    margin: 100px;    /* Add spacing below the button */
+    margin-bottom: 20px;
+}
+/*---------------------------------------------------------------------------------------------------------------*/
+/*            t   o    p                                                 c   o   n   t  a   i  n   e   r             */
+/* Style the top container */
+.container {
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    overflow: hidden;
+    background-color: #c7f0fc;
+}
+
+.wave {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    animation: waveAnimation 0s linear infinite;
+}
+
+.wave:nth-child(2) {
+    animation-delay: 0s;
+}
+
+.wave img {
+    width: 1550px;
+    height: 100px;
+    display: block;
+}
+@keyframes waveAnimation {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+.boat {
+    position: absolute;
+    left: 40px; /* Initial position of the boat */
+    bottom: 60px;
+    width: 150px; /* Adjust the boat width as needed */
+    z-index: 2; /* Ensure boat is above waves */
+    animation: boatMove 50s linear infinite; /* Boat animation */
+  } 
+  @keyframes boatMove {
+    0% {
+      left: 20px; /* Start position of the boat */
+    }
+    100% {
+      left: calc(100% - 20px); /* End position of the boat */
+    }
+  }
+  .clouds {
+    position: absolute;
+    top: 20px; /* Adjust the top position of the clouds as needed */
+    width:  110%; /* Ensure the clouds span the container width */
+    animation: cloudsMove 10s linear infinite; /* Clouds animation */
+  }
+  .cloud{
+    position: absolute;
+    width: 170px; /* Adjust the cloud width as needed */
+    height: auto;
+    animation: cloudFloat 40s linear infinite alternate; /* Cloud float animation */
+  }
+  .cloud1 {
+    left: 350px; /* Position of the first cloud */
+  }
+  
+  .cloud2 {
+    right: 35px; /* Position of the second cloud */
+  }
+  @keyframes cloudsMove {
+    0% {
+      transform: translateX(0); /* Start position of clouds */
+    }
+    100% {
+      transform: translateX(-100%); /* End position of clouds */
+    }
+  }
+  
+  @keyframes cloudFloat {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+  }
+  .birds {
+    position: absolute;
+    top: 270px; /* Adjust the top position of the birds as needed */
+    width: 100%; /* Ensure the birds span the container width */
+    animation: birdsFly 17s linear infinite; /* Birds fly animation */
+  }
+  
+  .bird {
+    position: absolute;
+    width: 150px; /* Adjust the bird width as needed */
+    height: auto;
+    animation: birdMove 20s linear infinite alternate; /* Bird move animation */
+  }
+  
+  .bird1 {
+    left: 20px; /* Position of the first bird */
+  }
+  @keyframes birdsFly {
+    0% {
+      transform: translateX(0); /* Start position of birds */
+    }
+    100% {
+      transform: translateX(100%); /* End position of birds */
+    }
+  }
+  
+  @keyframes birdMove {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-20px);
+    }
+  } 
+
+  .wave3 {
+    position: relative;
+    overflow: hidden; /* Hide overflowing fish */
+  }
+
+  .fish {
+    position: absolute;
+    bottom: -50px; /* Adjust the fish's initial position as needed */
+    left: 50%; /* Center the fish horizontally */
+    transform: translateX(-50%); /* Center the fish horizontally */
+    z-index: 2; /* Ensure fish is above waves and behind other elements */
+  }
+  
+  .fish-image {
+    width: 50px; /* Adjust the fish's width as needed */
+    height: auto;
+    animation: fishMove 5s linear infinite; /* Fish movement animation */
+  }
+  .sun {
+    position: absolute;
+    left: 50%; /* Center the sun horizontally */
+    bottom: 401px; /* Adjust the sun's position from the bottom as needed */
+    transform: translateX(-50%); /* Center the sun horizontally */
+    width: 100px; /* Adjust the sun's width as needed */
+    z-index: 3; /* Ensure sun is behind clouds but above waves, birds, and fish */
+  }
+
+  /*----------------------------------------------------------------------------------------------------*/
