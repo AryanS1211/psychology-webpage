@@ -63,11 +63,12 @@ h1 {
     padding-top: 0px;                      
 }
  .middle-container{  
-     background-image: url("ocean.png");
+   background-image: url("ocean.png");
      background-repeat: no-repeat;
      max-width: 100%;
      height:auto;
-     background-size: 100%;
+     background-size: 100% 100%;
+ 
  
 }
 .image{
@@ -422,9 +423,10 @@ nav a:hover {
   }
   
   .fish-image {
-    width: 50px; /* Adjust the fish's width as needed */
+    
+    width: 150px; /* Adjust the fish's width as needed */
     height: auto;
-    animation: fishMove 5s linear infinite; /* Fish movement animation */
+    animation: fishMove 5s linear infinite; /* Fish movement animation */ 
   }
   .sun {
     position: absolute;
